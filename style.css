@@ -30,8 +30,12 @@ body{
 }
 .form-container h1 {
   text-align: center;
-  padding-bottom: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-container p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 15px;
 }
 
 .form-div {
@@ -103,11 +107,14 @@ body{
   margin-top: 20px;
   float: left;
 }
-@media screen and (max-width:360px) {
+@media screen and (max-width:450px) {
   #clear-bt{
     display:none;
   }
   .form-container h1{
     font-size: 20px;
+  }
+  .form-container p{
+    font-size: 12px;
   }
 }

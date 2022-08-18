@@ -45,7 +45,7 @@ body{
 }
 
 .form-div span, .total-container span {
-  width: 100px;
+  width: 200px;
   float: left;
   font-weight: 400;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
